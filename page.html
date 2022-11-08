@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" type="text/css" href="./estilos3.css">
+    <link rel="shorcut icon" href="./imagenes/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/54a0b47874.js" crossorigin="anonymous"></script>
+    <script src="../Educorpo/app.js" ></script>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <img src="./imagenes/usuario.png" alt="Educorpo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Conoce tu cuerpo</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="../Test/Test.html">Test</a></li>
+                <li><a href="../Login/Login.php">Salir</a></li>
+
+            </ul>
+        </nav>
+        <a class="btn" href="../Encuesta/encuesta.html"><button>Contactanos</button></a>
+    </header>
+    <br>
+    <br>
+
+
+
+
+
+    <div class="container-fluid marriba p-5">
+        <div class="row ">
+                    
+                <div class="col-md-3 ">
+                    <a href="migraña.html"><img src="./imagenes/migraña.jpg" alt="" srcset="" height="300px" width="450px"></a>
+                </div>
+                <div class="col-md-3 border border-light bg-article">
+                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha
+                         </p>
+                    <a id="like1" href="#" onclick="tolike(this.id, 'dislike1')"><i class="fa-regular fa-thumbs-up fa-3x"></i></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a id="dislike1" onclick="toDislike(this.id, 'like1')" href="#"><i class="fa-regular fa-thumbs-down fa-3x"></i></a>
+                    <label id="box" style="display: none;" for="">dfasfd</label>
+                </div>
+                <div class="col-md-3">
+                    <img src="./imagenes/respiratorio.jpg" alt="" srcset="" height="300px" width="450px">
+                </div>
+                <div class="col-md-3 border border-light bg-article">
+                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                        ha
+                         </p>
+                    <a id="like2"  onclick="tolike(this.id,  'dislike2')" href="#"><i class="fa-regular fa-thumbs-up fa-3x"></i></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a id="dislike2"  onclick="toDislike(this.id, 'like2')" href="#"><i class="fa-regular fa-thumbs-down fa-3x"></i></a>
+                </div>
+            
+        </div>
+        <br><br><br>
+        <div class="row ">
+            <div class="col-md-3">
+                <img src="./imagenes/vih.jpg" alt="" srcset="" height="300px" width="450px">
+            </div>
+            <div class="col-md-3 border border-light bg-article">
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                    ha
+                     </p>
+                <a id="like3" onclick="tolike(this.id,  'dislike3')" href="#"><i class="fa-regular fa-thumbs-up fa-3x"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="dislike3" onclick="toDislike(this.id, 'like3')" href="#"><i class="fa-regular fa-thumbs-down fa-3x"></i></a>
+            </div>
+            <div class="col-md-3">
+                <img src="./imagenes/hepaticas.jpg" alt="" srcset="" height="300px" width="450px">
+            </div>
+            <div class="col-md-3 border border-light bg-article">
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum
+                    ha
+                     </p>
+                <a id="like4" onclick="tolike(this.id, 'dislike4')" href="#"><i class="fa-regular fa-thumbs-up fa-3x"></i></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a id="dislike4" onclick="toDislike(this.id, 'like4')" href="#"><i class="fa-regular fa-thumbs-down fa-3x"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
