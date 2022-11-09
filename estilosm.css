@@ -13,6 +13,25 @@ p{
     color: black;
 }
 
+.txt-justy{
+    text-align: justify;
+    
+}
+
+.vid{
+    overflow:hidden;
+    padding-bottom:50px; /* altura del video */
+    position:relative;
+    height:0;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    scrollbar-darkshadow-color: lightsteelblue;  /* Sombras del video (no funciona)*/
+}
+
+
+
 
 
 
